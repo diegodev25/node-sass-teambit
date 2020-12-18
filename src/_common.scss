@@ -4,8 +4,20 @@
   align-items: center;
 }
 
+@mixin rules-flex-center {
+  display: flex;
+  align-items: center;
+}
+
+
 @mixin rules-flex-space {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@mixin rules-float {
+  float: left;
+  width: 50%;
+  height: 100%;
 }

@@ -1,24 +1,43 @@
 .logo > img {
-  width: 120px;
+  width: 130px;
 }
 
 .navbar {
   @include rules-flex-space;
   width: $max-width;
-  height: 35px;
-  border: $border-test;
+  height: 80px;
+  border-bottom: $hr;
   & > .menu {
-    display: flex;
+    @include rules-flex-center;
     & > ul {
       list-style: none;
       & > li {
         display: inline-block;
         & > a {
+          font-size: 14px;
+          font-weight: 700;
           margin-right: 30px;
           text-decoration: none;
           color: $color-text;
         }
       }
     }
+  }
+}
+
+.menu > button {
+  @include rules-flex;
+  color: $text-bg-button;
+  font-size: 14px;
+  font-weight: 700;
+  width: 100px;
+  height: 36px;
+  border: $border-color-button;
+  border-radius: $border-radius;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  & > img {
+    width: 18px;
+    margin-right: 10px;
   }
 }

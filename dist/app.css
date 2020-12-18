@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "HarmoniaSansProCyrRegular", Arial, sans-serif;
+  text-decoration: none;
 }
 
 .header {
@@ -9,13 +11,14 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 75px;
+  height: 120px;
   margin-top: 30px;
+  margin-bottom: 150px;
   border: 1px solid black;
 }
 
 .logo > img {
-  width: 120px;
+  width: 130px;
 }
 
 .navbar {
@@ -23,12 +26,13 @@
   justify-content: space-between;
   align-items: center;
   width: 1150px;
-  height: 35px;
-  border: 1px solid black;
+  height: 80px;
+  border-bottom: 1px solid #BDB5AF;
 }
 
 .navbar > .menu {
   display: flex;
+  align-items: center;
 }
 
 .navbar > .menu > ul {
@@ -40,8 +44,96 @@
 }
 
 .navbar > .menu > ul > li > a {
+  font-size: 14px;
+  font-weight: 700;
   margin-right: 30px;
   text-decoration: none;
-  color: #59402C;
+  color: #040F0F;
+}
+
+.menu > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #304990;
+  font-size: 14px;
+  font-weight: 700;
+  width: 100px;
+  height: 36px;
+  border: 1px solid #304990;
+  border-radius: 7px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.menu > button > img {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.section-1 {
+  width: 1150px;
+  margin: 0 auto;
+  height: 550px;
+  border: 1px solid black;
+}
+
+.section-1 > .cont-left,
+.section-1 > .cont-right {
+  float: left;
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.cont-left > h1 {
+  color: #040F0F;
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.cont-left > p {
+  color: #040F0F;
+  font-size: 22px;
+  width: 90%;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.cont-left > a {
+  font-size: 14px;
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: #304990;
+  padding: 0 20px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 7px;
+}
+
+.cont-left > a:last-child {
+  display: block;
+  font-size: 14px;
+  color: #4466D4;
+  margin-top: 20px;
+  padding: inherit;
+  background-color: inherit;
+}
+
+.cont-left > a:nth-child(3) > img {
+  color: #FFFFFF;
+  width: 18px;
+  vertical-align: middle;
+}
+
+.cont-left > a:nth-child(5) > img {
+  color: #FFFFFF;
+  width: 18px;
+  vertical-align: middle;
+}
+
+.cont-right > img {
+  width: 100%;
 }
 

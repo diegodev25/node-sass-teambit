@@ -1,0 +1,58 @@
+.section-1 {
+  width: $max-width;
+  margin: 0 auto;
+  height: 550px;
+  border: $border-test;
+  & > .cont-left, & > .cont-right {
+    @include rules-float;
+    border: $border-test;
+  }
+}
+
+.cont-left {
+  & > h1 {
+    color: $color-text;
+    font-size: $h1-size;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  & > p {
+    color: $color-text;
+    font-size: 22px;
+    width: 90%;
+    line-height: 32px;
+    margin-bottom: 40px;
+  }
+  & > a {
+    font-size: $size-text-button;
+    display: inline-block;
+    color: $color-text-button;
+    background-color: $text-bg-button;
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: $border-radius;
+  }
+  & > a:last-child {
+    display: block;
+    font-size: $size-text-button;
+    color: $bg-button_link;
+    margin-top: 20px;
+    padding: inherit;
+    background-color: inherit;
+  }
+  & > a:nth-child(3) > img {
+    color: $color-text-button;
+    width: 18px;
+    vertical-align: middle;
+  }
+  & > a:nth-child(5) > img {
+    color: $color-text-button;
+    width: 18px;
+    vertical-align: middle;
+  }
+}
+
+.cont-right > img {
+  width: 100%;
+}
