@@ -1,0 +1,7 @@
+.header {
+  @include rules-flex;
+  width: $full;
+  height: 75px;
+  margin-top: 30px;
+  border: $border-test;
+}
