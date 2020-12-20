@@ -22,6 +22,17 @@
 }
 
 @mixin button {
+  font-size: $size-text-button;
+  display: inline-block;
+  color: $color-text-button;
+  background-color: $text-bg-button;
+  padding: 0 20px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: $border-radius;
+}
+
+@mixin button-img {
   color: $color-text-button;
   width: 18px;
   vertical-align: middle;

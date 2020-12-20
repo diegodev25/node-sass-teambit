@@ -1,0 +1,87 @@
+.section-7 {
+  width: $full;
+  height: 720px;
+  margin-top: 60px;
+  border: $border-test;
+  background-color: $bg-section;
+}
+
+.container-7 {
+  width: $max-width;
+  margin: auto;
+  height: 100%;
+  border: $border-test;
+  & > h5 {
+    color: $color-text;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  & > a {
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    color: $bg-button_link;
+  }
+}
+
+.testimonial {
+  width: 620px;
+  height: 370px;
+  background-color: #FFFFFF;
+  border: $border-color-button;
+  border-radius: $border-radius;
+  margin: 50px auto 35px auto;
+  padding: 20px 20px 20px 35px;
+  & > p {
+    color: $color-text;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  & > img {
+    float: left;
+    width: 45px;
+    margin-right: 10px;
+  }
+}
+
+.name-founders {
+  float: left;
+  margin-top: 5px;
+  & > span:nth-last-child(2) {
+    font-size: 14px;
+    color: #4466D4;
+  }
+  & > span:nth-last-child(1) {
+    display: block;
+    margin-top: 2px;
+    font-size: 12px;
+    color: $color-text;
+  }
+}
+
+.button-social {
+  @include rules-flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  & > a {
+    @include button;
+    & > img {
+      @include button-img;
+    }
+  }
+  & > span {
+    color: $color-text;
+    font-size: 13px;
+    margin: 0 20px;
+  }
+}
+
+.email {
+  display: block;
+  text-align: center;
+  & > a {
+    font-size: 14px;
+    color: $bg-button_link;
+  }
+}
