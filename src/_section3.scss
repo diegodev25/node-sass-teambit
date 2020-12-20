@@ -6,6 +6,7 @@
   @include rules-container-left_right-3-4-5-6;
   & > img {
     @include rules-img-container_LR;
+    margin-left: 250px;
   }
 }
 

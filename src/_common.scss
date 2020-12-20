@@ -29,7 +29,7 @@
 
 @mixin rules-section-3-4-5-6 {
   width: $full;
-  height: 630px;
+  min-height: 630px;
   border: $border-test;
   margin-top: 50px;
   padding-top: 50px;
@@ -37,13 +37,12 @@
 
 @mixin rules-img-container_LR {
   width: 750px;
-  margin-left: 250px;
 }
 
 @mixin rules-container-left_right-3-4-5-6 {
   float: left;
   width: 50%;
-  height: 520px;
+  min-height: 520px;
   border: $border-test;
 }
 
