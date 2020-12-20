@@ -1,46 +1,29 @@
 .section-4 {
-  width: $full;
-  height: 700px;
-  border: $border-test;
-  margin-top: 40px;
+  @include rules-section-3-4-5-6;
+  margin-top: 20px;
   padding-top: 20px;
 }
 
 .container-left-4 {
-  float: left;
-  width: 22%;
-  height: 520px;
-  margin-left: 565px;
-  border: $border-test;
+  @include rules-container-left_right-3-4-5-6;
+  padding-left: 560px;
   & > h3 {
-    color: $color-text;
-    font-size: 26px;
-    margin: 10px 0;
+    @include rules-h3-container;
   }
   & > p {
-    color: $color-text;
-    font-size: $p-size;
-    margin-bottom: 30px;
+    @include rules-p-container;
   }
   & > a {
-    font-size: 22px;
-    color: $bg-button_link;
+    @include rules-a-container;
   }
   & > img {
-    display: block;
-    width: 270px;
-    margin-top: 50px;
-    margin-left: 80px;
+    @include rules-img-container;
   }
 }
 
 .container-right-4 {
-  float: left;
-  width: 40%;
-  height: 520px;
-  border: $border-test;
+  @include rules-container-left_right-3-4-5-6;
   & > img {
-    width: 750px;
-    margin-left: 10px;
+    @include rules-img-container_LR;
   }
 }

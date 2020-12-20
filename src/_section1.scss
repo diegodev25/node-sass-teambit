@@ -47,9 +47,7 @@
     vertical-align: middle;
   }
   & > a:nth-child(5) > img {
-    color: $color-text-button;
-    width: 18px;
-    vertical-align: middle;
+    @include button;
   }
 }
 

@@ -9,7 +9,6 @@
   align-items: center;
 }
 
-
 @mixin rules-flex-space {
   display: flex;
   justify-content: space-between;
@@ -20,4 +19,54 @@
   float: left;
   width: 50%;
   height: 100%;
+}
+
+@mixin button {
+  color: $color-text-button;
+  width: 18px;
+  vertical-align: middle;
+}
+
+@mixin rules-section-3-4-5-6 {
+  width: $full;
+  height: 630px;
+  border: $border-test;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+@mixin rules-img-container_LR {
+  width: 750px;
+  margin-left: 250px;
+}
+
+@mixin rules-container-left_right-3-4-5-6 {
+  float: left;
+  width: 50%;
+  height: 520px;
+  border: $border-test;
+}
+
+@mixin rules-h3-container {
+  color: $color-text;
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+@mixin rules-p-container {
+  color: $color-text;
+  font-size: $p-size;
+  margin-bottom: 30px;
+}
+
+@mixin rules-a-container {
+  font-size: 22px;
+  color: $bg-button_link;
+}
+
+@mixin rules-img-container {
+  display: block;
+  width: 270px;
+  margin-top: 50px;
+  margin-left: 80px;
 }

@@ -1,0 +1,26 @@
+.section-5 {
+  @include rules-section-3-4-5-6;
+}
+
+.container-left-5 {
+  @include rules-container-left_right-3-4-5-6;
+  & > img {
+    @include rules-img-container_LR;
+  }
+}
+
+.container-right-5 {
+  @include rules-container-left_right-3-4-5-6;
+  & > h3 {
+    @include rules-h3-container;
+  }
+  & > p {
+    @include rules-p-container;
+  }
+  & > a {
+    @include rules-a-container;
+  }
+  & > img {
+    @include rules-img-container;
+  }
+}

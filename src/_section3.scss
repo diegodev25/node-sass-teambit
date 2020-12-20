@@ -1,45 +1,26 @@
 .section-3 {
-  width: $full;
-  height: 650px;
-  border: $border-test;
-  margin-top: 80px;
-  padding-top: 80px;
+  @include rules-section-3-4-5-6;
 }
 
 .container-left-3 {
-  float: left;
-  width: 50%;
-  height: 520px;
-  border: $border-test;
+  @include rules-container-left_right-3-4-5-6;
   & > img {
-    width: 750px;
-    margin-left: 250px;
+    @include rules-img-container_LR;
   }
 }
 
 .container-right-3 {
-  float: left;
-  width: 40%;
-  height: 520px;
-  border: $border-test;
+  @include rules-container-left_right-3-4-5-6;
   & > h3 {
-    color: $color-text;
-    font-size: 26px;
-    margin: 10px 0;
+    @include rules-h3-container;
   }
   & > p {
-    color: $color-text;
-    font-size: $p-size;
-    margin-bottom: 30px;
+    @include rules-p-container;
   }
   & > a {
-    font-size: 22px;
-    color: $bg-button_link;
+    @include rules-a-container;
   }
   & > img {
-    display: block;
-    width: 270px;
-    margin-top: 50px;
-    margin-left: 80px;
+    @include rules-img-container;
   }
 }
