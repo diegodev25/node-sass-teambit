@@ -206,3 +206,54 @@
   font-size: 18px;
 }
 
+.section-3 {
+  width: 100%;
+  height: 700px;
+  border: 1px solid black;
+  margin-top: 80px;
+  padding-top: 80px;
+}
+
+.container-left-3 {
+  float: left;
+  width: 50%;
+  height: 520px;
+  border: 1px solid black;
+}
+
+.container-left-3 > img {
+  width: 750px;
+  margin-left: 250px;
+}
+
+.container-right-3 {
+  float: left;
+  width: 40%;
+  height: 520px;
+  border: 1px solid black;
+}
+
+.container-right-3 > h3 {
+  color: #040F0F;
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+.container-right-3 > p {
+  color: #040F0F;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.container-right-3 > a {
+  font-size: 22px;
+  color: #4466D4;
+}
+
+.container-right-3 > img {
+  display: block;
+  width: 270px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+

@@ -1,0 +1,45 @@
+.section-3 {
+  width: $full;
+  height: 700px;
+  border: $border-test;
+  margin-top: 80px;
+  padding-top: 80px;
+}
+
+.container-left-3 {
+  float: left;
+  width: 50%;
+  height: 520px;
+  border: $border-test;
+  & > img {
+    width: 750px;
+    margin-left: 250px;
+  }
+}
+
+.container-right-3 {
+  float: left;
+  width: 40%;
+  height: 520px;
+  border: $border-test;
+  & > h3 {
+    color: $color-text;
+    font-size: 26px;
+    margin: 10px 0;
+  }
+  & > p {
+    color: $color-text;
+    font-size: $p-size;
+    margin-bottom: 30px;
+  }
+  & > a {
+    font-size: 22px;
+    color: $bg-button_link;
+  }
+  & > img {
+    display: block;
+    width: 270px;
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+}
