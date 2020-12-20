@@ -2,7 +2,6 @@
   width: $full;
   height: 720px;
   margin-top: 60px;
-  border: $border-test;
   background-color: $bg-section;
 }
 
@@ -10,12 +9,11 @@
   width: $max-width;
   margin: auto;
   height: 100%;
-  border: $border-test;
   & > h5 {
     color: $color-text;
     font-size: 40px;
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
   }
   & > a {
     display: block;

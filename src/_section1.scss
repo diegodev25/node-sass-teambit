@@ -2,10 +2,8 @@
   width: $max-width;
   margin: 0 auto;
   height: 500px;
-  border: $border-test;
   & > .cont-left, & > .cont-right {
     @include rules-float;
-    border: $border-test;
   }
 }
 
